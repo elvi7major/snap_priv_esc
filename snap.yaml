@@ -1,0 +1,12 @@
+name: snap-exp
+version: '0.1'
+summary: Empty snap, used for exploit
+description: |
+ See https://github.com/bendalisoftpro/snap_priv_esc
+
+grade: devel
+confinement: devmode
+
+parts:
+ my-part:
+  plugin: nil
